@@ -67,6 +67,13 @@
          "target":{
             "type":"Image",
             "source":"https://tile.loc.gov/image-services/iiif/service:gmd:gmd384:g3842:g3842c:ct008615/full/1000,/0/default.jpg",
+            "service": [
+              {
+                "id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd384:g3842:g3842c:ct008615",
+                "type": "ImageService2",
+                "profile": "http://iiif.io/api/image/2/level2.json"
+              }
+            ],
             "selector":{
                "type":"SvgSelector",
                "value":"<svg width=\"5212\" height=\"7072\"><polygon points=\"966,3628 923,6769 2400,6757 2388,3623 966,3628\" /></svg>"
@@ -134,6 +141,13 @@
          "target":{
             "type":"Image",
             "source":"https://tile.loc.gov/image-services/iiif/service:gmd:gmd384:g3842:g3842c:ct008615/full/1000,/0/default.jpg",
+            "service": [
+              {
+                "id": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd384:g3842:g3842c:ct008615",
+                "type": "ImageService2",
+                "profile": "http://iiif.io/api/image/2/level2.json"
+              }
+            ],
             "selector":{
                "type":"SvgSelector",
                "value":"<svg width=\"5212\" height=\"7072\"><polygon points=\"2685,504 2694,6928 5171,6934 5178,519 2685,504\" /></svg>"
