@@ -64,11 +64,7 @@
                   },
                   {
                      "type":"Feature",
-                     "properties":{
-                        "pixel":[
-                           
-                        ]
-                     },
+                     "properties":{},
                      "geometry":{
                         "type":"Point",
                         "coordinates":[
