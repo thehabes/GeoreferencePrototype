@@ -93,7 +93,7 @@
         }
       ],
       "target": {
-        "type": "PixelCoords",
+        "type": "Image",
         "source": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd384:g3842:g3842c:ct008615/full/1000,/0/default.jpg",
         "service": [
           {
@@ -180,7 +180,7 @@
         }
       ],
       "target": {
-        "type": "PixelCoords",
+        "type": "Image",
         "source": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd384:g3842:g3842c:ct008615/full/1000,/0/default.jpg",
         "service": [
           {
