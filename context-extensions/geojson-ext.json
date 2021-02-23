@@ -12,11 +12,11 @@
       "PixelCoords":{
          "@id":"proto:PixelCoords",
          "@container":"@list",
-         "@type" : "xsd:float",
          "@context":{
             "value":{
                "@id":"rdf:value",
-               "@container":"@list"
+               "@container":"@list",
+               "@type" : "xsd:float"
             }
          }
       },
