@@ -1,5 +1,6 @@
 {
    "@context":{
+   	  "@version": 1.1,
       "geo":"https://purl.org/geojson/vocab#",
       "iiif_prezi":"http://iiif.io/api/presentation/3#",
       "iiif_image":"http://iiif.io/api/image/3#",
