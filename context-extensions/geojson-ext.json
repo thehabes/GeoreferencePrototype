@@ -7,6 +7,7 @@
       "rdfs":"http://www.w3.org/2000/01/rdf-schema#",
       "as":"http://www.w3.org/ns/activitystreams#",
       "foaf":"http://xmlns.com/foaf/0.1/",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
       "xsd": "http://www.w3.org/2001/XMLSchema#",
       "proto":"https://thehabes.github.io/GeoreferencePrototype/vocab/new_terms.md#",
       "PixelCoords":{
