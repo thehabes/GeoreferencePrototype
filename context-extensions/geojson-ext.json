@@ -8,6 +8,7 @@
       "as":"http://www.w3.org/ns/activitystreams#",
       "foaf":"http://xmlns.com/foaf/0.1/",
       "proto":"https://thehabes.github.io/GeoreferencePrototype/vocab/new_terms.md#",
+      "PixelCoords" : "proto:PixelCoords",
       "properties":{
          "@id":"geo:properties",
          "@context":{

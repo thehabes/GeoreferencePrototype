@@ -2,6 +2,7 @@
   "@id": "https://data.allmaps.org/annotations/m/4qzVfHU7rDgRqP7q",
   "type": "AnnotationPage",
   "@context": [
+    "https://thehabes.github.io/GeoreferencePrototype/context-extensions/geojson-ext.json",
     "http://geojson.org/geojson-ld/geojson-context.jsonld",
     "http://iiif.io/api/presentation/3/context.json"
   ],
@@ -17,7 +18,7 @@
           {
             "type": "Feature",
             "properties": {
-              "image": [
+              "pixel_coords": [
                 1823,
                 6656
               ]
@@ -33,7 +34,7 @@
           {
             "type": "Feature",
             "properties": {
-              "image": [
+              "pixel_coords": [
                 1360,
                 4110
               ]
@@ -49,7 +50,7 @@
           {
             "type": "Feature",
             "properties": {
-              "image": [
+              "pixel_coords": [
                 2363,
                 4643
               ]
@@ -65,7 +66,7 @@
         ]
       },
       "target": {
-        "type": "Image",
+        "type": "pixel_coords",
         "source": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd384:g3842:g3842c:ct008615/full/1000,/0/default.jpg",
         "service": [
           {
@@ -91,7 +92,7 @@
           {
             "type": "Feature",
             "properties": {
-              "image": [
+              "pixel_coords": [
                 3525,
                 622
               ]
@@ -107,7 +108,7 @@
           {
             "type": "Feature",
             "properties": {
-              "image": [
+              "pixel_coords": [
                 2840,
                 3153
               ]
@@ -123,7 +124,7 @@
           {
             "type": "Feature",
             "properties": {
-              "image": [
+              "pixel_coords": [
                 4493,
                 4795
               ]
@@ -139,7 +140,7 @@
         ]
       },
       "target": {
-        "type": "Image",
+        "type": "pixel_coords",
         "source": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd384:g3842:g3842c:ct008615/full/1000,/0/default.jpg",
         "service": [
           {
