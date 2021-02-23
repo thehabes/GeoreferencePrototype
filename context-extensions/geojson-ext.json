@@ -7,10 +7,12 @@
       "rdfs":"http://www.w3.org/2000/01/rdf-schema#",
       "as":"http://www.w3.org/ns/activitystreams#",
       "foaf":"http://xmlns.com/foaf/0.1/",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
       "proto":"https://thehabes.github.io/GeoreferencePrototype/vocab/new_terms.md#",
       "PixelCoords":{
          "@id":"proto:PixelCoords",
          "@container":"@list",
+         "@type" : "xsd:float",
          "@context":{
             "value":{
                "@id":"rdf:value",
@@ -53,7 +55,8 @@
             },
             "pixel_coords":{
                "@id":"proto:pixel_coords",
-               "@container":"@list"
+               "@container":"@list",
+               "@type" : "xsd:float",
             },
             "pic":{
                "@id":"foaf:depiction",
