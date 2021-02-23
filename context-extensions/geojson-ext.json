@@ -20,7 +20,8 @@
       },
       "ControlPoints":{
          "@id":"proto:ControlPoints",
-         "@container":"@list"
+         "@container":"@list",
+         "@type" : "proto:PixelCoords"
       },
       "properties":{
          "@id":"geo:properties",
