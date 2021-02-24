@@ -10,7 +10,7 @@
     {
       "@id": "https://data.allmaps.org/annotations/i/yT5Z6epJ7vi7BeLP/m/pVJemU2Kcq4C8HTs",
       "type": "Annotation",
-      "motivation": "tagging",
+      "motivation": "georeferencing",
       "body": [
         {
           "type": "ControlPoints",
@@ -54,7 +54,6 @@
         },
         {
           "type": "FeatureCollection",
-          "purpose": " ?? georeferencing ?? ",
           "features": [
             {
               "type": "Feature",
@@ -111,7 +110,7 @@
     {
       "@id": "https://data.allmaps.org/annotations/i/yT5Z6epJ7vi7BeLP/m/EvBivpkw7ty4CSdJ",
       "type": "Annotation",
-      "motivation": "tagging",
+      "motivation": "georeferencing",
       "body": [
         {
           "type": "ControlPoints",
@@ -141,7 +140,6 @@
         },
         {
           "type": "FeatureCollection",
-          "purpose": " ?? georeferencing ?? ",
           "features": [
             {
               "type": "Feature",

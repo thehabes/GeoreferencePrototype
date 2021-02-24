@@ -25,6 +25,7 @@
          "@container":"@list",
          "@type" : "proto:PixelCoords"
       },
+      "georeferencing" : "proto:georeferencing",
       "properties":{
          "@id":"geo:properties",
          "@context":{
