@@ -2,6 +2,7 @@
   "@id": "https://data.allmaps.org/annotations/m/4qzVfHU7rDgRqP7q",
   "type": "AnnotationPage",
   "@context": [
+    "https://thehabes.github.io/GeoreferencePrototype/context-extensions/geojson-ext.json",
     "http://geojson.org/geojson-ld/geojson-context.jsonld",
     "http://iiif.io/api/presentation/3/context.json"
   ],
@@ -9,41 +10,41 @@
     {
       "@id": "https://data.allmaps.org/annotations/i/yT5Z6epJ7vi7BeLP/m/pVJemU2Kcq4C8HTs",
       "type": "Annotation",
-      "motivation": "tagging",
+      "motivation": "georeferencing",
       "body": [
         {
           "type": "ControlPoints",
           "items": [
             {
-              "type": "Image",
+              "type": "PixelCoords",
               "value": [
                 1823,
                 6656
               ]
             },
             {
-              "type": "Image",
+              "type": "PixelCoords",
               "value": [
                 1360,
                 4110
               ]
             },
             {
-              "type": "Image",
+              "type": "PixelCoords",
               "value": [
                 1360,
                 4110
               ]
             },
             {
-              "type": "Image",
+              "type": "PixelCoords",
               "value": [
                 1360,
                 4110
               ]
             },
             {
-              "type": "Image",
+              "type": "PixelCoords",
               "value": [
                 2363,
                 4643
@@ -53,7 +54,6 @@
         },
         {
           "type": "FeatureCollection",
-          "purpose": " ?? georeferencing ?? ",
           "features": [
             {
               "type": "Feature",
@@ -110,27 +110,27 @@
     {
       "@id": "https://data.allmaps.org/annotations/i/yT5Z6epJ7vi7BeLP/m/EvBivpkw7ty4CSdJ",
       "type": "Annotation",
-      "motivation": "tagging",
+      "motivation": "georeferencing",
       "body": [
         {
           "type": "ControlPoints",
           "items": [
             {
-              "type": "Image",
+              "type": "PixelCoords",
               "value": [
                 3525,
                 622
               ]
             },
             {
-              "type": "Image",
+              "type": "PixelCoords",
               "value": [
                 2840,
                 3153
               ]
             },
             {
-              "type": "Image",
+              "type": "PixelCoords",
               "value": [
                 4493,
                 4795
@@ -140,7 +140,6 @@
         },
         {
           "type": "FeatureCollection",
-          "purpose": " ?? georeferencing ?? ",
           "features": [
             {
               "type": "Feature",
