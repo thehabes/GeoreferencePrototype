@@ -22,13 +22,13 @@
   },
   "body": {
     "type": "FeatureCollection",
+    "transformation": {
+      "type": "polynomial",
+      "order": 0
+    },
     "features": [
       {
         "type": "Feature",
-        "transformation": {
-          "type": "polynomial",
-          "order": 0
-        },
         "properties": {
           "image": [
             2538,
@@ -45,10 +45,6 @@
       },
       {
         "type": "Feature",
-        "transformation": {
-          "type": "polynomial",
-          "order": 0
-        },
         "properties": {
           "image": [
             1274,
@@ -65,10 +61,6 @@
       },
       {
         "type": "Feature",
-        "transformation": {
-          "type": "polynomial",
-          "order": 0
-        },
         "properties": {
           "image": [
             993,
