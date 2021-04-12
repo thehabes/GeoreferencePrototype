@@ -13,6 +13,10 @@
       "motivation": "georeferencing",
       "body": {
         "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "polynomialOrder": 0
+        },
         "features": [
           {
             "type": "Feature",
