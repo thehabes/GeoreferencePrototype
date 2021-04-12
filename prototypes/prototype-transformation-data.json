@@ -1,0 +1,88 @@
+{
+  "type": "Annotation",
+  "@context": [
+    "http://geojson.org/geojson-ld/geojson-context.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "motivation": "georeference",
+  "target": {
+    "type": "Image",
+    "source": "https://iiif.bodleian.ox.ac.uk/iiif/image/c042e80d-9542-45b6-afd5-4a8dfdfe8037/full/full/0/default.jpg",
+    "service": [
+      {
+        "@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/c042e80d-9542-45b6-afd5-4a8dfdfe8037",
+        "type": "ImageService2",
+        "profile": "http://iiif.io/api/image/2/level2.json"
+      }
+    ],
+    "selector": {
+      "type": "SvgSelector",
+      "value": "<svg width=\"4478\" height=\"6482\"><polygon points=\"2392,5877 689,5887 659,566 1961,573 1957,1571 3858,1586 3873,3285 3867,5071 2394,5072 2392,5877\" /></svg>"
+    }
+  },
+  "body": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "transformation": {
+          "type": "polynomial",
+          "order": 0
+        },
+        "properties": {
+          "image": [
+            2538,
+            3856
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.2458181,
+            51.7523047
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "transformation": {
+          "type": "polynomial",
+          "order": 0
+        },
+        "properties": {
+          "image": [
+            1274,
+            4062
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.2512813,
+            51.7507067
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "transformation": {
+          "type": "polynomial",
+          "order": 0
+        },
+        "properties": {
+          "image": [
+            993,
+            3005
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.2539988,
+            51.753431
+          ]
+        }
+      }
+    ]
+  }
+}
