@@ -9,22 +9,8 @@
       "foaf":"http://xmlns.com/foaf/0.1/",
       "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
       "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "gdal" : "https://gdal.org/programs/gdaltransform.html",
       "proto":"https://thehabes.github.io/GeoreferencePrototype/vocab/new_terms.md#",
-      "PixelCoords":{
-         "@id":"proto:PixelCoords",
-         "@context":{
-            "value":{
-               "@id":"rdf:value",
-               "@container":"@list",
-               "@type" : "xsd:float"
-            }
-         }
-      },
-      "ControlPoints":{
-         "@id":"proto:ControlPoints",
-         "@container":"@list",
-         "@type" : "proto:PixelCoords"
-      },
       "georeferencing" : "proto:georeferencing",
       "properties":{
          "@id":"geo:properties",
@@ -54,7 +40,7 @@
                "@id":"iiif_prezi:metadataEntries",
                "@container":"@list"
             },
-            "pixel_coords":{
+            "pixelCoords":{
                "@id":"proto:pixel_coords",
                "@container":"@list",
                "@type" : "xsd:float",
