@@ -24,7 +24,7 @@
     "type": "FeatureCollection",
     "transformation": {
       "type": "polynomial",
-      "order": 0
+      "polynomialOrder": 0
     },
     "features": [
       {
