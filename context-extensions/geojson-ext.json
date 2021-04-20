@@ -12,6 +12,15 @@
       "gdal" : "https://gdal.org/programs/gdaltransform.html",
       "proto":"https://thehabes.github.io/GeoreferencePrototype/vocab/new_terms.md#",
       "georeferencing" : "proto:georeferencing",
+      "transformation" : {
+        "@id":"proto:transformation"
+      },
+      "polynomial" : "proto:polynomial",
+      "thin-plate-spline" : "proto:thin-plate-spline",
+      "polynomialOrder" : {
+         "@id":"proto:polynomialOrder",
+         "@type":"xsd:integer"
+      },
       "properties":{
          "@id":"geo:properties",
          "@context":{
