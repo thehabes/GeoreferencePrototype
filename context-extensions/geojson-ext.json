@@ -10,7 +10,7 @@
       "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
       "xsd": "http://www.w3.org/2001/XMLSchema#",
       "gdal" : "https://gdal.org/programs/gdaltransform.html",
-      "proto":"https://thehabes.github.io/GeoreferencePrototype/vocab/new_terms.md#",
+      "proto":"https://thehabes.github.io/GeoreferencePrototype/vocab/new-terms.md#",
       "georeferencing" : "proto:georeferencing",
       "geotagging" : "proto:geotagging",
       "transformation" : {
