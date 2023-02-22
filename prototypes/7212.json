@@ -210,8 +210,8 @@
                                 "type": "Image",
                                 "format": "image/jpeg",
                                 "service": {
-                                    "@id": "http://t-pen.org/TPEN/login.jsp",
-                                    "@type": "ImageService3"
+                                    "id": "http://t-pen.org/TPEN/login.jsp",
+                                    "type": "ImageService3"
                                 }
                             },
                             "target": "http://localhost:8080/TPEN/canvas/13251390"
@@ -414,8 +414,8 @@
                                 "type": "Image",
                                 "format": "image/jpeg",
                                 "service": {
-                                    "@id": "http://t-pen.org/TPEN/login.jsp",
-                                    "@type": "ImageService3"
+                                    "id": "http://t-pen.org/TPEN/login.jsp",
+                                    "type": "ImageService3"
                                 }
                             },
                             "target": "http://localhost:8080/TPEN/canvas/13251391"
