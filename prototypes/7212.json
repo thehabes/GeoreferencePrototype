@@ -1,0 +1,618 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://thehabes.github.io/GeoreferencePrototype/prototypes/7212.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "The Sphere"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "The Sphere"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "subtitle"
+                ]
+            },
+            "value": {
+                "none": [
+                    " "
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "msIdentifier"
+                ]
+            },
+            "value": {
+                "none": [
+                    " "
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "msSettlement"
+                ]
+            },
+            "value": {
+                "none": [
+                    " "
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "msRepository"
+                ]
+            },
+            "value": {
+                "none": [
+                    " "
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "msIdNumber"
+                ]
+            },
+            "value": {
+                "none": [
+                    " "
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "subject"
+                ]
+            },
+            "value": {
+                "none": [
+                    " "
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    ""
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "language"
+                ]
+            },
+            "value": {
+                "none": [
+                    ""
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "author"
+                ]
+            },
+            "value": {
+                "none": [
+                    ""
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "description"
+                ]
+            },
+            "value": {
+                "none": [
+                    " "
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "location"
+                ]
+            },
+            "value": {
+                "none": [
+                    ""
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "msCollection"
+                ]
+            },
+            "value": {
+                "none": [
+                    " "
+                ]
+            }
+        }
+    ],
+    "services": [
+        {
+            "id": "http://t-pen.org/TPEN/login.jsp",
+            "type": "ImageService3",
+            "profile": "http://iiif.io/api/auth/1/login",
+            "label": "T-PEN Login",
+            "header": "Login for image access",
+            "description": "Agreement requires an open T-PEN session to view images",
+            "confirmLabel": "Login",
+            "failureHeader": "T-PEN Login Failed",
+            "failureDescription": "<a href=\"http://t-pen.org/TPEN/about.jsp\">Read Agreement</a>",
+            "service": [
+                {
+                    "@id": "http://t-pen.org/TPEN/login.jsp",
+                    "profile": "http://iiif.io/api/auth/1/logout",
+                    "label": "End T-PEN Session"
+                }
+            ]
+        }
+    ],
+    "items": [
+        {
+            "id": "http://localhost:8080/TPEN/canvas/13251390",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "IP_004_001"
+                ]
+            },
+            "width": 755,
+            "height": 1000,
+            "items": [
+                {
+                    "id": "http://localhost:8080/TPEN/annotationpage/13251390",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://localhost:8080/TPEN/project/7212/annotations/13251390",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://iiif.library.utoronto.ca/image/v2/italianpaleography:IP_004_001/full/full/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "id": "http://t-pen.org/TPEN/login.jsp",
+                                    "type": "ImageService3"
+                                }
+                            },
+                            "target": "http://localhost:8080/TPEN/canvas/13251390"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://localhost:8080/TPEN/annotations/13251390",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://localhost:8080/TPEN/line/104720948",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "Sphere Number 1"
+                            },
+                            "target": "http://localhost:8080/TPEN/canvas/13251390",
+                            "_tpen_line_id": "line/104720948",
+                            "_tpen_note": "",
+                            "_tpen_creator": 11,
+                            "modified": "2022-09-12 13:58:26.0"
+                        },
+                        {
+                            "id": "http://localhost:8080/TPEN/line/104720947",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": ""
+                            },
+                            "target": "http://localhost:8080/TPEN/canvas/13251390",
+                            "_tpen_line_id": "line/104720947",
+                            "_tpen_note": "",
+                            "_tpen_creator": 11,
+                            "modified": "2022-09-12 13:31:01.0"
+                        },
+                        {
+                            "id": "http://localhost:8080/TPEN/line/104720949",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": ""
+                            },
+                            "target": "http://localhost:8080/TPEN/canvas/13251390",
+                            "_tpen_line_id": "line/104720949",
+                            "_tpen_note": "",
+                            "_tpen_creator": 11,
+                            "modified": "2022-09-12 13:31:03.0"
+                        },
+                        {
+                            "id": "http://localhost:8080/TPEN/line/104720950",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": ""
+                            },
+                            "target": "http://localhost:8080/TPEN/canvas/13251390",
+                            "_tpen_line_id": "line/104720950",
+                            "_tpen_note": "",
+                            "_tpen_creator": 11,
+                            "modified": "2022-09-12 13:31:05.0"
+                        },
+                        {
+                            "id": "http://localhost:8080/TPEN/line/104720951",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": ""
+                            },
+                            "target": "http://localhost:8080/TPEN/canvas/13251390",
+                            "_tpen_line_id": "line/104720951",
+                            "_tpen_note": "",
+                            "_tpen_creator": 11,
+                            "modified": "2022-09-12 13:31:06.0"
+                        },
+                        {
+                            "id": "http://localhost:8080/TPEN/line/104720952",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": ""
+                            },
+                            "target": "http://localhost:8080/TPEN/canvas/13251390",
+                            "_tpen_line_id": "line/104720952",
+                            "_tpen_note": "",
+                            "_tpen_creator": 11,
+                            "modified": "2022-09-12 13:31:07.0"
+                        },
+                        {
+                            "id": "http://localhost:8080/TPEN/line/104720953",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": ""
+                            },
+                            "target": "http://localhost:8080/TPEN/canvas/13251390",
+                            "_tpen_line_id": "line/104720953",
+                            "_tpen_note": "",
+                            "_tpen_creator": 11,
+                            "modified": "2022-09-12 13:31:08.0"
+                        },
+                        {
+                            "id": "http://localhost:8080/TPEN/line/104720954",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": ""
+                            },
+                            "target": "http://localhost:8080/TPEN/canvas/13251390",
+                            "_tpen_line_id": "line/104720954",
+                            "_tpen_note": "",
+                            "_tpen_creator": 11,
+                            "modified": "2022-09-12 13:31:10.0"
+                        },
+                        {
+                            "id": "http://localhost:8080/TPEN/line/104720955",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "Sphere number 2"
+                            },
+                            "target": "http://localhost:8080/TPEN/canvas/13251390",
+                            "_tpen_line_id": "line/104720955",
+                            "_tpen_note": "",
+                            "_tpen_creator": 11,
+                            "modified": "2022-09-12 13:58:18.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "http://localhost:8080/TPEN/canvas/13251391",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "IP_004_002"
+                ]
+            },
+            "width": 723,
+            "height": 1000,
+            "items": [
+                {
+                    "id": "http://localhost:8080/TPEN/annotationpage/13251391",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://localhost:8080/TPEN/project/7212/annotations/13251391",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://iiif.library.utoronto.ca/image/v2/italianpaleography:IP_004_002/full/full/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "id": "http://t-pen.org/TPEN/login.jsp",
+                                    "type": "ImageService3"
+                                }
+                            },
+                            "target": "http://localhost:8080/TPEN/canvas/13251391"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://localhost:8080/TPEN/annotations/13251391",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://localhost:8080/TPEN/line/104720989",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "Decorations"
+                            },
+                            "target": "http://localhost:8080/TPEN/canvas/13251391",
+                            "_tpen_line_id": "line/104720989",
+                            "_tpen_note": "",
+                            "_tpen_creator": 11,
+                            "modified": "2022-09-12 13:32:32.0"
+                        },
+                        {
+                            "id": "http://localhost:8080/TPEN/line/104720991",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "Ommo and something else"
+                            },
+                            "target": "http://localhost:8080/TPEN/canvas/13251391",
+                            "_tpen_line_id": "line/104720991",
+                            "_tpen_note": "",
+                            "_tpen_creator": 11,
+                            "modified": "2022-09-12 13:32:40.0"
+                        },
+                        {
+                            "id": "http://localhost:8080/TPEN/line/104720990",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "per cui and so on"
+                            },
+                            "target": "http://localhost:8080/TPEN/canvas/13251391",
+                            "_tpen_line_id": "line/104720990",
+                            "_tpen_note": "",
+                            "_tpen_creator": 11,
+                            "modified": "2022-09-12 13:32:46.0"
+                        },
+                        {
+                            "id": "http://localhost:8080/TPEN/line/104720992",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "ercio the something"
+                            },
+                            "target": "http://localhost:8080/TPEN/canvas/13251391",
+                            "_tpen_line_id": "line/104720992",
+                            "_tpen_note": "",
+                            "_tpen_creator": 11,
+                            "modified": "2022-09-12 13:32:56.0"
+                        },
+                        {
+                            "id": "http://localhost:8080/TPEN/line/104720993",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": ""
+                            },
+                            "target": "http://localhost:8080/TPEN/canvas/13251391",
+                            "_tpen_line_id": "line/104720993",
+                            "_tpen_note": "",
+                            "_tpen_creator": 11,
+                            "modified": "2022-09-12 13:32:03.0"
+                        },
+                        {
+                            "id": "http://localhost:8080/TPEN/line/104720994",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": ""
+                            },
+                            "target": "http://localhost:8080/TPEN/canvas/13251391",
+                            "_tpen_line_id": "line/104720994",
+                            "_tpen_note": "",
+                            "_tpen_creator": 11,
+                            "modified": "2022-09-12 13:32:05.0"
+                        },
+                        {
+                            "id": "http://localhost:8080/TPEN/line/104720995",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": ""
+                            },
+                            "target": "http://localhost:8080/TPEN/canvas/13251391",
+                            "_tpen_line_id": "line/104720995",
+                            "_tpen_note": "",
+                            "_tpen_creator": 11,
+                            "modified": "2022-09-12 13:32:05.0"
+                        },
+                        {
+                            "id": "http://localhost:8080/TPEN/line/104720996",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "I like the gold they put in this one"
+                            },
+                            "target": "http://localhost:8080/TPEN/canvas/13251391",
+                            "_tpen_line_id": "line/104720996",
+                            "_tpen_note": "",
+                            "_tpen_creator": 11,
+                            "modified": "2022-09-12 13:58:47.0"
+                        },
+                        {
+                            "id": "http://localhost:8080/TPEN/line/104720997",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "This is a bit abstract and minimal"
+                            },
+                            "target": "http://localhost:8080/TPEN/canvas/13251391",
+                            "_tpen_line_id": "line/104720997",
+                            "_tpen_note": "",
+                            "_tpen_creator": 11,
+                            "modified": "2022-09-12 13:59:03.0"
+                        },
+                        {
+                            "id": "http://localhost:8080/TPEN/line/104720998",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "Weird how the lines separating the pie stand out the most"
+                            },
+                            "target": "http://localhost:8080/TPEN/canvas/13251391",
+                            "_tpen_line_id": "line/104720998",
+                            "_tpen_note": "",
+                            "_tpen_creator": 11,
+                            "modified": "2022-09-12 13:59:19.0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "annotations": [
+    ]
+}
