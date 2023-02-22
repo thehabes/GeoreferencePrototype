@@ -1,0 +1,1111 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://thehabes.github.io/GeoreferencePrototype/prototypes/7312.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "F004-04 letter from Paul to Alice: New Orleans, LA (08/14/1895)"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "title"
+                ]
+            },
+            "value": {
+                "none": [
+                    "F004-04 letter from Paul to Alice: New Orleans, LA (08/14/1895)"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "subtitle"
+                ]
+            },
+            "value": {
+                "none": [
+                    " "
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "msIdentifier"
+                ]
+            },
+            "value": {
+                "none": [
+                    " "
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "msSettlement"
+                ]
+            },
+            "value": {
+                "none": [
+                    " "
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "msRepository"
+                ]
+            },
+            "value": {
+                "none": [
+                    " "
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "msIdNumber"
+                ]
+            },
+            "value": {
+                "none": [
+                    " "
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "subject"
+                ]
+            },
+            "value": {
+                "none": [
+                    " "
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "date"
+                ]
+            },
+            "value": {
+                "none": [
+                    ""
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "language"
+                ]
+            },
+            "value": {
+                "none": [
+                    ""
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "author"
+                ]
+            },
+            "value": {
+                "none": [
+                    ""
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "description"
+                ]
+            },
+            "value": {
+                "none": [
+                    " "
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "location"
+                ]
+            },
+            "value": {
+                "none": [
+                    ""
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "msCollection"
+                ]
+            },
+            "value": {
+                "none": [
+                    " "
+                ]
+            }
+        }
+    ],
+    "services": [
+        {
+            "@context": "http://iiif.io/api/auth/1/context.json",
+            "id": "http://t-pen.org/TPEN/login.jsp",
+            "type": "AuthCookieService1",
+            "profile": "http://iiif.io/api/auth/1/login",
+            "label": "T-PEN Login",
+            "header": "Login for image access",
+            "description": "Agreement requires an open T-PEN session to view images",
+            "confirmLabel": "Login",
+            "failureHeader": "T-PEN Login Failed",
+            "failureDescription": "<a href=\"http://t-pen.org/TPEN/about.jsp\">Read Agreement</a>",
+            "service": [
+                {
+                    "@id": "http://t-pen.org/TPEN/login.jsp",
+                    "profile": "http://iiif.io/api/auth/1/logout",
+                    "label": "End T-PEN Session"
+                }
+            ]
+        }
+    ],
+    "items": [
+        {
+            "id": "http://t-pen.org/TPEN/canvas/13252838",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "MSS0113_S01_B01_F004_04a.jpg"
+                ]
+            },
+            "width": 797,
+            "height": 1000,
+            "items": [
+                {
+                    "id": "http://t-pen.org/TPEN/annotationpage/13252838",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://t-pen.org/TPEN/project/7312/annotations/13252838",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "http://t-pen.org/TPEN/pageImage?folio=13252838",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "id": "http://t-pen.org/TPEN/login.jsp",
+                                    "type": "AuthCookieService1"
+                                }
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252838"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://t-pen.org/TPEN/annotations/13252838",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104753273",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "<note>From: Paul Dunbar To: Alice Ruth Moore New Orleans, La.</note>"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252838",
+                            "_tpen_line_id": "line/104753273",
+                            "_tpen_note": "",
+                            "_tpen_creator": 11,
+                            "modified": "2021-09-03 14:14:50.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104753274",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "Dayton - O. Aug. 14th 1895"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252838",
+                            "_tpen_line_id": "line/104753274",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-09-17 17:22:25.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104753275",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "Dear Miss Moore: I must confess that to-"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252838",
+                            "_tpen_line_id": "line/104753275",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-14 10:48:36.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104753276",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "night I set down to write to you without knowing what in the "
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252838",
+                            "_tpen_line_id": "line/104753276",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-09-17 17:24:21.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104753277",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "world to say. There is much that I should like to say, much"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252838",
+                            "_tpen_line_id": "line/104753277",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-09-17 17:24:34.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104753278",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "in my \"inner consciousness\" that in struggling for expression,"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252838",
+                            "_tpen_line_id": "line/104753278",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-14 10:49:23.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104753279",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "but they are things that to go and must continue to go <unclear>."
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252838",
+                            "_tpen_line_id": "line/104753279",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-14 10:49:46.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104753280",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "From the first that I noticed your work, I was interested"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252838",
+                            "_tpen_line_id": "line/104753280",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-09-17 17:27:03.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104753281",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "in you more than I dare to say, but now since I have seen"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252838",
+                            "_tpen_line_id": "line/104753281",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-09-17 17:27:19.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104753282",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "your work I am fairly bewildered. I have read it with"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252838",
+                            "_tpen_line_id": "line/104753282",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-09-17 17:27:52.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104753283",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "delight, and my appreciation is <unclear> only by my surprise."
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252838",
+                            "_tpen_line_id": "line/104753283",
+                            "_tpen_note": "\"ignalled\"?",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-14 10:50:33.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104753284",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "I consider your stories pieces of most exquisite art, and it is in them chiefly that I am interested. After reading the"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252838",
+                            "_tpen_line_id": "line/104753284",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-09-17 17:36:06.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104753285",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "initial story in the book, I wrote involuntarily <unclear> in these words: \"it is like one little convulsive heart knot,\""
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252838",
+                            "_tpen_line_id": "line/104753285",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-14 10:51:01.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104753286",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "and so to me it is. Your \"little Miss Sophie\" is as graceful poignant and charming as any thing Grace King ever"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252838",
+                            "_tpen_line_id": "line/104753286",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-09-17 17:42:15.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104753287",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "wrote. Everything you have written shows remarkable thought and beyond that-talent. "
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252838",
+                            "_tpen_line_id": "line/104753287",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-14 10:51:10.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104753288",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "Although I liked your poems-you asked me to be honest-"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252838",
+                            "_tpen_line_id": "line/104753288",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-14 10:51:34.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104753289",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "I was less impressed with them. They are rich in concep-"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252838",
+                            "_tpen_line_id": "line/104753289",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-02 20:21:09.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104753290",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "tion and imagery, but they lack that exactness of form"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252838",
+                            "_tpen_line_id": "line/104753290",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-02 20:22:33.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104753291",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "which is one of my literary hobbies. I hope before"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252838",
+                            "_tpen_line_id": "line/104753291",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-02 20:25:27.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104753292",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "long to be able to review your book where it will"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252838",
+                            "_tpen_line_id": "line/104753292",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-02 20:27:38.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104753293",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "do you some good. If I don't it well be more the fault"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252838",
+                            "_tpen_line_id": "line/104753293",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-02 20:27:25.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104753294",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "of an obdurate editor than mine."
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252838",
+                            "_tpen_line_id": "line/104753294",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-02 20:28:55.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104753295",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "I have just returned from Toledo where I gave a"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252838",
+                            "_tpen_line_id": "line/104753295",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-02 20:30:01.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104753296",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "recital at the State Insane Hospital. I had the"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252838",
+                            "_tpen_line_id": "line/104753296",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-02 20:31:07.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104753297",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "pleasure of recommending your book to friends their"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252838",
+                            "_tpen_line_id": "line/104753297",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-02 20:32:07.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104753298",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "and if selling one copy to a lady who will work to "
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252838",
+                            "_tpen_line_id": "line/104753298",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-02 20:32:24.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "http://t-pen.org/TPEN/canvas/13252837",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "MSS0113_S01_B01_F004_04b.jpg"
+                ]
+            },
+            "width": 802,
+            "height": 1000,
+            "items": [
+                {
+                    "id": "http://t-pen.org/TPEN/annotationpage/13252837",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://t-pen.org/TPEN/project/7312/annotations/13252837",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "http://t-pen.org/TPEN/pageImage?folio=13252837",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "id": "http://t-pen.org/TPEN/login.jsp",
+                                    "type": "AuthCookieService1"
+                                }
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252837"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://t-pen.org/TPEN/annotations/13252837",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104755053",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "your interest at Bay View Michigan, where she is also handling the \"Woman's Era.\" Together with payment for my own copy I enclose fifty cents for one to he sent to Mrs. Lottie Jackson, Bay View Michigan. Please send it at once as she can do you good."
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252837",
+                            "_tpen_line_id": "line/104755053",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-02 20:35:21.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104755054",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "I could not understand whether your remark was <unclear> or sarcasm in regard to the review in the Boston Standard. Will you tell me? Also, will you explain you dedication? It puzzles me and forms \"a wrote to <unclear> the mind's eye.\""
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252837",
+                            "_tpen_line_id": "line/104755054",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-14 10:53:17.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104755055",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "I have severed my connection with the Ind. World and I will send your photo home as soon as I can get it from them. My business keeps me traveling a great deal and I find that I can get nothing done properly. At the office when I am away, it is for this season that you have not secured the papers as you should. I am a good deal <unclear> with my little taste of Afro-American (I hate the word) govern-alism"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252837",
+                            "_tpen_line_id": "line/104755055",
+                            "_tpen_note": "disgruntled?",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-14 10:54:30.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104755056",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "(I hate the word Afro-American, it is a barbaric and clumsy affectation.) But it is heavy and<unclear> and <unclear>, so your educated Negro who by the way loves show, loves the word and rolls it as a sweet morsel over his tongue. But this is a disgression."
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252837",
+                            "_tpen_line_id": "line/104755056",
+                            "_tpen_note": "is the first \"highsounding\"?",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-14 10:55:34.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104755057",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "I want to know what answer you made to your minister when he asked if you believed in soul affinity. You left me in doubt on that point."
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252837",
+                            "_tpen_line_id": "line/104755057",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-14 10:55:47.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104755058",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "I wish you would send me any little published bit of yours. I am positively hungry for any thing you write."
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252837",
+                            "_tpen_line_id": "line/104755058",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-14 10:56:07.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104755059",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "<note> 2-17-17"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252837",
+                            "_tpen_line_id": "line/104755059",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-14 10:56:12.0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "http://t-pen.org/TPEN/canvas/13252836",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "MSS0113_S01_B01_F004_04c.jpg"
+                ]
+            },
+            "width": 796,
+            "height": 1000,
+            "items": [
+                {
+                    "id": "http://t-pen.org/TPEN/annotationpage/13252836",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://t-pen.org/TPEN/project/7312/annotations/13252836",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "http://t-pen.org/TPEN/pageImage?folio=13252836",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "id": "http://t-pen.org/TPEN/login.jsp",
+                                    "type": "AuthCookieService1"
+                                }
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252836"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://t-pen.org/TPEN/annotations/13252836",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104755063",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "I hope that you won't think that I am entirely a"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252836",
+                            "_tpen_line_id": "line/104755063",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-02 23:11:18.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104755064",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "fool, but my nature is essentially enthusiastic and"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252836",
+                            "_tpen_line_id": "line/104755064",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-02 23:11:31.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104755065",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "you have greatly roused it. I am sorry that I must-"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252836",
+                            "_tpen_line_id": "line/104755065",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-14 10:56:21.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104755066",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "wait until November for your picture for I am impatient"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252836",
+                            "_tpen_line_id": "line/104755066",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-02 23:12:14.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104755067",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "to have one that is my very own."
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252836",
+                            "_tpen_line_id": "line/104755067",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-02 23:12:23.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104755068",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "I am writing a great deal now and the joy of creat-"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252836",
+                            "_tpen_line_id": "line/104755068",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-14 10:56:29.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104755069",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "ing is in my blood. I know you have felt the same"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252836",
+                            "_tpen_line_id": "line/104755069",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-02 23:14:09.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104755070",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "just as I can appreciate what you experience with the"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252836",
+                            "_tpen_line_id": "line/104755070",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-02 23:14:25.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104755071",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "blues. I am either high on the mountain top or away"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252836",
+                            "_tpen_line_id": "line/104755071",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-02 23:15:51.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104755072",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "down in the valley. Tonight for the first time, I believe, I am sorry that I am not handsome and wealthy-then perhaps I might not have to write a letter that concealed my thoughts!"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252836",
+                            "_tpen_line_id": "line/104755072",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-14 10:56:39.0"
+                        },
+                        {
+                            "id": "http://t-pen.org/TPEN/line/104755073",
+                            "type": "Annotation",
+                            "motivation": "transcribing",
+                            "body": {
+                                "type": "TextualBody",
+                                "format": "text/plain",
+                                "language": [
+                                    "none"
+                                ],
+                                "value": "Sincerely Paul L. Dunbar"
+                            },
+                            "target": "http://t-pen.org/TPEN/canvas/13252836",
+                            "_tpen_line_id": "line/104755073",
+                            "_tpen_note": "",
+                            "_tpen_creator": 2605,
+                            "modified": "2021-10-14 10:56:46.0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "annotations": [
+    ]
+}
