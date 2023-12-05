@@ -5,7 +5,7 @@ Contact: bryan.j.haberberger@slu.edu | thehabes@habesoftware.rocks
 
 Example Provided : https://new.annotations.allmaps.org/maps?limit=10  
 
-Example Reviewed : [dec-2024-annotations.json](/prototypes/dec-2024-annotations.json)
+Example Downloaded : [dec-2024-annotations.json](/prototypes/dec-2024-annotations.json)
 
 ### @context considerations
 ```
