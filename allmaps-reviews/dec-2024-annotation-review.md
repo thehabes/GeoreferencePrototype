@@ -25,25 +25,22 @@ Example Reviewed : [dec-2024-annotations.json](/prototypes/dec-2024-annotations.
    ...
 
 ```
-
 Only the top level object (the AnnotationPage) should have the `@context` property and its value should be
-
 ```
 "@context":"https://iiif.io/api/extension/georef/1/context.json"
 ```
+The context "http://iiif.io/api/extension/georef/1/context.json" already specifically scopes in "http://www.w3.org/ns/anno.jsonld".  Therefore, you should never have to include "http://www.w3.org/ns/anno.jsonld" anywhere in these Annotations and Annotation Pages because they will have the Georeference Annotation context.  
 
-- Note that the context "http://iiif.io/api/extension/georef/1/context.json" already specifically scopes in "http://www.w3.org/ns/anno.jsonld".  Therefore, you should never have to include "http://www.w3.org/ns/anno.jsonld" anywhere in these Annotations and Annotation Pages because they will have the Georeference Annotation context.  
-- Only Annotations and Annotation Pages that target a IIIF Presentation API Defined Type (Collection, Manifest, Range, Canvas) or IIIF Image API resource (Image, Fragment, SpecificResoure) should include the IIIF Presentation API context "http://iiif.io/api/presentation/3/context.json". Only in these cases, the context should be
+Only Annotations and Annotation Pages that target a IIIF Presentation API Defined Type (Collection, Manifest, Range, Canvas) or IIIF Image API resource (Image, Fragment, SpecificResoure) should include the IIIF Presentation API context "http://iiif.io/api/presentation/3/context.json". Only in these cases, the context should be
 ```
 "@context":[
    "http://iiif.io/api/extension/georef/1/context.json",
    "http://iiif.io/api/presentation/3/context.json"
 ]
 ```
-  
-Note that including extra, duplicated, or unused context is not an error but may cause warnings during JSON-LD processing.
+> Note that including extra, duplicated, or unused context is not an error but may cause warnings during JSON-LD processing.
 
-### `id` and `@id` negotation warning
+### `id` and `@id` negotation
 Noting that you use `id` throughout, but for your SpecificResources you use `@id`.  
 ```
 "type":"SpecificResource",
@@ -54,14 +51,13 @@ Noting that you use `id` throughout, but for your SpecificResources you use `@id
    "width":8597
 }
 ```
-
 Though not techincally an error, you will want to be careful of this in IIIF scenarios.  It can trick a viewer that has not been coded to negotiate between `id` and `@id`.
 
 ### `allmaps` property as a foreign member
-Noting that the `allmaps` property is technically a foreign member, as it is not described by "http://iiif.io/api/extension/georef/1/context.json".  This is not a problem, but consider noting it as a foreign member via the `_` convention, like `_allmaps`.  It would be wise to include a context for this property, but it is not required.
+The `allmaps` property is a foreign member, as it is not described by "http://iiif.io/api/extension/georef/1/context.json".  This is not a problem, but consider noting it as a foreign member via the `_` convention, like `_allmaps`.  It would be wise to include a context for this property, but it is not required.
 ```
 "allmaps":{
-   "@context": "https://allmaps.org/context_for_allmaps_property"
+   "@context": "https://allmaps.org/wise_context_for_allmaps_property"
    "version":"https://new.annotations.allmaps.org/maps/4f482a5db9ac5581@77cbdfa0621354fa",
    "createdAt":"2022-07-10T08:00:46.732Z",
    "updatedAt":"2022-07-10T08:00:46.732Z",
@@ -73,9 +69,8 @@ Noting that the `allmaps` property is technically a foreign member, as it is not
 }
 ```
 
-
 ### `transformation` property
-Noting that none of the Annotations reviewed contained a `transformation` property.  This may have been intentional, just noting it.
+None of the Annotations reviewed contained a `transformation` property.  This may have been intentional, just noting it.
 ```
 "transformation": {
  "type": "polynomial",
