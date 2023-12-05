@@ -7,8 +7,7 @@ Example Provided : https://new.annotations.allmaps.org/maps?limit=10
 
 Example Reviewed : [dec-2024-annotations.json](/prototypes/dec-2024-annotations.json)
 
-### Review
-
+### @context considerations
 ```
 {
    "type":"AnnotationPage",
@@ -44,6 +43,7 @@ Only the top level object (the AnnotationPage) should have the `@context` proper
   
 Note that including extra, duplicated, or unused context is not an error but may cause warnings during JSON-LD processing.
 
+### `id` and `@id` negotation warning
 Noting that you use `id` throughout, but for your SpecificResources you use `@id`.  
 ```
 "type":"SpecificResource",
@@ -55,8 +55,9 @@ Noting that you use `id` throughout, but for your SpecificResources you use `@id
 }
 ```
 
-Though noy techincally an error, you will want to be careful of this in IIIF scenarios.  It can trick a viewer that has not been coded to negotiate between `id` and `@id`.
+Though not techincally an error, you will want to be careful of this in IIIF scenarios.  It can trick a viewer that has not been coded to negotiate between `id` and `@id`.
 
+### `allmaps` property as a foreign member
 Noting that the `allmaps` property is technically a foreign member, as it is not described by "http://iiif.io/api/extension/georef/1/context.json".  This is not a problem, but consider noting it as a foreign member via the `_` convention, like `_allmaps`.  It would be wise to include a context for this property, but it is not required.
 ```
 "allmaps":{
@@ -72,7 +73,9 @@ Noting that the `allmaps` property is technically a foreign member, as it is not
 }
 ```
 
-Noting that none of the Annotations reviewed contained a `transformation` property
+
+### `transformation` property
+Noting that none of the Annotations reviewed contained a `transformation` property.  This may have been intentional, just noting it.
 ```
 "transformation": {
  "type": "polynomial",
