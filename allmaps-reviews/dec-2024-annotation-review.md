@@ -1,9 +1,9 @@
 ## December 2024 Allmaps Georeference Annotation Review
-By: Bryan Haberberger
-GitHub: https://github.com/thehabes
-Contact: thehabes@habesoftware.rocks
+By: Bryan Haberberger  
+GitHub: https://github.com/thehabes  
+Contact: bryan.j.haberberger@slu.edu | thehabes@habesoftware.rocks  
 
-Example Provided : https://new.annotations.allmaps.org/maps?limit=10
+Example Provided : https://new.annotations.allmaps.org/maps?limit=10  
 
 Example Reviewed : [dec-2024-annotations.json](/prototypes/dec-2024-annotations.json)
 
