@@ -27,7 +27,7 @@ Example Downloaded : [dec-2024-annotations.json](/prototypes/dec-2024-annotation
 ```
 Only the top level object (the AnnotationPage) should have the `@context` property and its value should be
 ```
-"@context":"https://iiif.io/api/extension/georef/1/context.json"
+"@context":"http://iiif.io/api/extension/georef/1/context.json"
 ```
 The context "http://iiif.io/api/extension/georef/1/context.json" already specifically scopes in "http://www.w3.org/ns/anno.jsonld".  Therefore, you should never have to include "http://www.w3.org/ns/anno.jsonld" anywhere in these Annotations and Annotation Pages because they will have the Georeference Annotation context.  
 
